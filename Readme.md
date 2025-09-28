@@ -12,8 +12,8 @@ The database is designed to manage key entities in an e-commerce system:
 - **OrderItems**: A junction table that links products to orders, specifying the quantity and price for each item in an order.
 
 ## ER Diagram
-The relationships between these entities are visualized in the ER diagram below.
-![ER Diagram](D762BFEF-2076-44DB-90D3-36A54585D897.jpeg)
+The relationships between these entities are visualized in the ER-Diagram.png .
+
 
 ## Repository Structure
 - `/sql/schema.sql`: This script contains the `CREATE TABLE` statements for all the tables in the database. It defines columns, data types, primary keys, and foreign key constraints to enforce relational integrity.
