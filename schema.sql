@@ -2,13 +2,6 @@
 -- Author: Anurag Sharma
 -- Date: 2025-09-22
 
--- Drop tables with CASCADE to remove dependent objects
-DROP TABLE IF EXISTS OrderItems;
-DROP TABLE IF EXISTS Orders;
-DROP TABLE IF EXISTS Products;
-DROP TABLE IF EXISTS Categories;
-DROP TABLE IF EXISTS Customers;
-
 -- Table: Customers
 -- Stores customer information
 CREATE TABLE Customers (
